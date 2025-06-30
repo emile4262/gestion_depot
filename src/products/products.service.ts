@@ -65,6 +65,7 @@ export class ProductsService {
         stockEntries: true,
         sales: true,
       },
+      
     });
 
     if (!product) throw new NotFoundException('Produit introuvable');

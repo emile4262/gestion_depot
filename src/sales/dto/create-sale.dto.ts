@@ -25,5 +25,6 @@ export class CreateSaleDto {
   @IsString()
   @IsNotEmpty()
   productId: string;
+ 
   
 }

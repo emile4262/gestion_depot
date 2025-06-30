@@ -67,6 +67,7 @@ async create(createSaleDto: CreateSaleDto) {
           ? { connect: { id: dto.productId } }
           : undefined,
       },
+      
     });
   }
 
