@@ -269,7 +269,7 @@ export class UsersService {
 // }
 
 
-  const otp = randomInt(100000, 999999).toString();
+  const otp = randomInt(100000, 999999).toString(); 
   const otpExpires = new Date(Date.now() + 10 * 60 * 1000); // expire dans 10 minutes
 
   await this.prisma.user.update({

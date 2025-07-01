@@ -17,7 +17,7 @@ export class CreateSaleDto {
   @IsNotEmpty()
   client: string;
 
-  @ApiProperty()
+  // @ApiProperty()
   @IsEnum(PaymentStatus)
   paymentStatus: PaymentStatus;
 
